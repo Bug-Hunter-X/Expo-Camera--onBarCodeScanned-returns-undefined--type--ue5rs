@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with a custom `onBarCodeScanned` function.  The issue arises when trying to access the `type` property of the scanned barcode data. Sometimes, the `type` property is undefined, causing a runtime error. This happens inconsistently, making it difficult to debug.
